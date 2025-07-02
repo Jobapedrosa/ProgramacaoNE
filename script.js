@@ -9,4 +9,5 @@ let linguagens = ["JavaScript", "Python", "C++"];
 console.log(linguagens[1])
 
 const item = document.querySelector("#lista");
-item.textContent = linguagens[1];
+//item.textContent = linguagens[1];
+item.textContent = linguagens[0] + "-" + linguagens[1]  + "-" + linguagens[2];
